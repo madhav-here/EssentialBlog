@@ -1,0 +1,17 @@
+{
+  "name": "essential-blog",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Essential Blog",
+  "homepage": "https://madhav-here.github.io/EssentialBlog/",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages-d dist"
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
